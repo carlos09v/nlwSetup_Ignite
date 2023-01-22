@@ -1,0 +1,4 @@
+- 🚀 Como levar o projeto pro próximo nivel
+    1. Autenticação (Firebase, AuthO)
+    2. Notificações Push / Service Workers
+    3. Perfil público com gráfico de resumo

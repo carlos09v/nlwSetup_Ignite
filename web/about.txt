@@ -1,0 +1,39 @@
+        # 11_NLW-SETUP de 2023
+			* Trilha Ignite*
+
+    - Setup Front-end
+-- Aula 1 - Iniciando o projeto de ponta a ponta
+    1. Fundamentos do React
+    2. Criação do projeto
+    3. Componentes e propriedades
+    4. Configurando Tailwind CSS
+
+-- Aula 2 - Avançando o back-end e Front-end
+    1. Estrutura da Homepage
+        1.1. Componente: Header
+        1.2. Tabela de hábitos diários
+        1.3. Geração de range de dias
+        1.4. Preenchimento de dias no fim
+        1.5. Adicionando scroll horizontal
+
+-- Aula 03 - Finalizando o layout web e mobile
+    1. Modal de criação de hábito
+    2. Obtendo dados do formulário
+    3. Popover do detalhe do dia
+    4. Personalizar o progresso no quadrado do hábito
+
+-- Aula 04 - Conectando a API
+    1. Criando checkboxes
+    2. Obtendo dados do formulário
+    3. Conexão com back-end
+        3.1. Configurando cliente HTTP
+        3.2. Buscando resumo da API
+        3.3. Utilizando dados da API no popover
+        3.4. Criação de um novo hábito
+
+-- Aula 05 - O próximo nível
+    1. Listando hábitos possíveis do dia
+    2. Desabilitando em datas passadas
+    3. Sincronizando hábitos completos
+    4. Adicionando transitions e focus
+

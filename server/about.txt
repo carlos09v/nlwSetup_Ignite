@@ -1,0 +1,27 @@
+        # 11_NLW-SETUP de 2023
+			* Trilha Ignite*
+
+    - Setup Back-end
+-- Aula 1 - Iniciando o projeto de ponta a ponta
+    1. Fundamentos de NodeJS
+    2. Criação de projeto
+    3. Setup de TypeScript
+    4. Criando a primeira rota
+    5. Configurando Prisma
+    6. Configurando CORS
+
+-- Aula 2 - Avançando o back-end e Front-end
+    1. Estrutura de banco de dados
+        1.1. Diagramação do banco
+        1.2. Criação das tabelas no banco
+        1.3. Criação de seed do banco de dados
+    2. Isolando os arquivos do back-end
+    3. Rotas do back-end
+        3.1. Criação de novo hábito
+        3.2. Detalhe do dia(hábitos completos/possíveis)
+        3.3. Toggle do hábito no dia
+        3.4. Resumo de dias
+
+-- Aula 03 - Finalizando o layout web e mobile
+    1. Rota de completar hábito
+    2. Rota de resumo de dias

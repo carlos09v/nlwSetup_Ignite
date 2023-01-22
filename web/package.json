@@ -1,0 +1,48 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.0.1",
+    "@radix-ui/react-dialog": "^1.0.2",
+    "@radix-ui/react-popover": "^1.0.3",
+    "axios": "^1.2.3",
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.7",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "_commands": {
+    "0": "npm create vite@latest",
+    "1": "npm i tailwindcss postcss autoprefixer -D",
+    "2": "npx tailwindcss init -p",
+    "3": "npm i phosphor-react dayjs",
+    "4": "npm i @radix-ui/react-dialog",
+    "5": "npm i @radix-ui/react-popover",
+    "6": "npm i clsx",
+    "7": "npm i @radix-ui/react-checkbox",
+    "8": "npm i axios"
+  },
+  "_comments": {
+    "3": "Lib de Icones e Lib de Operações com datas",
+    "6": "Lib de Classes Condicionais",
+    "4, 5, 7": "Radix-ui => Lib de Componentes prontos e com acessibilidade"
+  }
+}

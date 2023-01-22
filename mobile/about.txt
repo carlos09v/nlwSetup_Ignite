@@ -1,0 +1,89 @@
+        # 11_NLW-SETUP de 2023
+			* Trilha Ignite*
+
+    - Setup Mobile
+-- Aula 1 - Iniciando o projeto de ponta a ponta
+    1. O que é React Native ?
+    2. O que é Expo e por quê ?
+    3. Criando o projeto mobile
+        3.1. Conhecendo a estrutura de pastas e arquivos
+        3.2. As semelhanças do mobile com web
+        3.3. Importar os Assets da aplicação
+        3.4. Configurar o Splash Screen
+        3.5. Instalar fontes personalizadas
+            3.5.1 - Garantir o carregamento das fontes
+        3.6. Criar o componente de Loading
+        3.7. Customizar o Status Bar
+
+-- Aula 2 - Avançando o back-end e Front-end
+    1. Conhecendo o Nativewind
+        1.1. Instalando
+        1.2. tailwind.config no React Native
+        1.3. Tipar o className para utilizar o tailwind
+        1.4. Instalar o Tailwindcss CSS IntelliSense
+    2. Criar a Home
+        2.1. Criar o componente Header
+            2.1.1 - Incluir o logo e utilizar o SVG como componente no React Native
+            2.1.2 - Definir a tipagem do SVG como componente
+            2.1.3 - Utilizar icones do vector-icons
+        2.2. Criar o componente HabitDay
+            2.2.1 - Instalar o dayjs para manipular datas
+            2.2.2 - Definir o padrão de datas pt-br
+            2.2.3 - Reaproveitando o generate-range-between-dates.ts
+        2.3. Gerar os dias o componente HabitDay
+        2.4. Criar o cabeçalho de dias da semana
+
+-- Aula 03 - Finalizando o layout web e mobile
+    1. Criar a estrutura básica das telas
+        1.1. Cadastro de hábitos
+        1.2. Detalhes do hábito
+    2. Implementação de navegação
+        2.1. Criar as rotas da aplicação
+        2.2. Navegar para a tela de cadastro
+        2.3. Definir a tipagem das rotas de navegação
+    3. Criar a interface de cadastro de hábitos
+        3.1. Componente BackButton
+        3.2. Implementar o botão de voltar na tela de cadastro
+        3.3. Input de novo hábito
+        3.4. Componente de CheckBox
+        3.5. Listar um CheckBox para cada dia da semana
+        3.6. Criar a função de marcar/desmarcar CheckBox
+        3.7. Botão de confirmar
+        3.8. Utilizar ScrollView para habilitar rolagem
+    4. Criar a interface de hábitos do dia
+        4.1. Navegar para a tela de hábito
+        4.2. Utilizar ScrollView para habilitar rolagem
+        4.3. Reaproveitar o componente BackButton
+        4.4. Passando e recuperando data como parâmetro de rota
+        4.5. Formatar e exibir o dia da semana
+        4.6. Formatar e exibir dia/mês
+        4.7. Criar o componente ProgressBar
+        4.8. Utilizar o componente de CheckBox
+
+-- Aula 04 - Conectando a API
+    1. Instalar o axios
+        1.1. Configurando o acesso ao server
+    2. Home
+        2.1. Listando o sumário
+        2.2. Utilizando o componente de Loading
+        2.3. Passando propriedades no componente HabitDay
+            2.3.1 - Criando uma função para calcular a porcentagem do progresso
+            2.3.2 - Utilizando o clsx para aplicar classes condicionais
+    3. New
+        3.1. Obtendo dados do formulário
+        3.2. Cadastrando e enviando novo hábito para API
+
+-- Aula 05 - O próximo nível
+    1. Habit
+        1.1. Buscar os hábitos do dia selecionado na API
+        1.2. Exibir lista de hábitos do dia
+        1.3. Criar o componente de lista de hábitos vazia
+        1.4. Verificar se a data selecionada é passada e mostrar mensagem que não pode editar
+        1.5. Exibir o progresso
+    2. Enviar para API o status do hábito (realizado ou não)
+        2.1. Utilizando o useFocusEffect para atualizar a home ao voltar
+    3. Animação
+        3.1. Conhecendo o React Native Reanimated
+        3.2. Instalando e configurando o Reanimated na aplicação
+        3.3. Animar o ProgressBar
+        3.4. Animar o CheckBox

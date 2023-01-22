@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "_commands": {
+    "0": "npm init -y",
+    "1": "npm i fastify @fastify/cors @prisma/client zod",
+    "2": "npm i typescript tsx prisma prisma-erd-generator @mermaid-js/mermaid-cli -D",
+    "3": "tsc --init",
+    "4": "npx prisma init --datasource-provider SQLite",
+    "5": "npx prisma migrate dev",
+    "6": "npx prisma studio",
+    "7": "npx prisma generate",
+    "8": "npm i dayjs"
+  },
+  "_comments": {
+    "8": "Lib de Operações com datas"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.3.0",
+    "prisma": "^4.8.1",
+    "prisma-erd-generator": "^1.2.5",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@prisma/client": "^4.8.1",
+    "dayjs": "^1.11.7",
+    "fastify": "^4.11.0",
+    "zod": "^3.20.2"
+  }
+}
