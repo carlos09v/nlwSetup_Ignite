@@ -21,13 +21,17 @@
     "5": "npx prisma migrate dev",
     "6": "npx prisma studio",
     "7": "npx prisma generate",
-    "8": "npm i dayjs"
+    "8": "npm i dayjs",
+    "9": "npm i web-push",
+    "10": "npm i @types/web-push -D"
   },
   "_comments": {
-    "8": "Lib de Operações com datas"
+    "8": "Lib de Operações com datas",
+    "9": "Lib pra usar a PushManager API do lado do Node"
   },
   "devDependencies": {
     "@mermaid-js/mermaid-cli": "^9.3.0",
+    "@types/web-push": "^3.3.2",
     "prisma": "^4.8.1",
     "prisma-erd-generator": "^1.2.5",
     "tsx": "^3.12.2",
@@ -38,6 +42,7 @@
     "@prisma/client": "^4.8.1",
     "dayjs": "^1.11.7",
     "fastify": "^4.11.0",
+    "web-push": "^3.5.0",
     "zod": "^3.20.2"
   }
 }
